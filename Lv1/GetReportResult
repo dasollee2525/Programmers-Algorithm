@@ -1,0 +1,5 @@
+def solution(id_list, report, k):
+    report_unique = list(set(report))
+    reported_num = dict
+    answer = []
+    return answer
