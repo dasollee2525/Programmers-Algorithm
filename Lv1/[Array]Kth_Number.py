@@ -9,3 +9,12 @@ def solution(array, commands):
         result = new_array[index-1]
         answer.append(result)
     return answer
+
+"""
+#better answer
+def solution(array, commands):
+    answer = []
+    for i, j, k in commands:
+    answer.append(sorted(array[i-1:j])[k-1])
+    return answer
+"""
