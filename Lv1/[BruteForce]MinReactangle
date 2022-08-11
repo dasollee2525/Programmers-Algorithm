@@ -1,0 +1,14 @@
+def solution(sizes):
+    cards = list(map(sorted, sizes))
+    height = []
+    width = []
+    for card in cards:
+        height.append(card[0])
+        width.append(card[1])
+    size = max(height) * max(width)
+    return size
+    
+"""
+def solution(sizes):
+    return max(max(x) for x in sizes) * max(min(x) for x in sizes)
+"""
