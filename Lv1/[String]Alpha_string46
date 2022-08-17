@@ -1,0 +1,8 @@
+def solution(s):
+    return s.isdigit() and (len(s) == 4 or len(s) == 6)
+    
+"""
+def alpha_string46(s):
+    return s.isdigit() and len(s) in (4, 6)
+#len을 저렇게 표현 가능..!!!
+"""
